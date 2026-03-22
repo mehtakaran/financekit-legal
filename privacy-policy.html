@@ -10,6 +10,7 @@
     .header { background: linear-gradient(135deg, #1A94FF 0%, #0060D0 100%); padding: 48px 24px 40px; text-align: center; color: white; }
     .header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; }
     .header p { font-size: 14px; opacity: 0.8; margin-top: 8px; }
+    .logo { width: 80px; height: 80px; background: rgba(255,255,255,0.18); border-radius: 20px; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
     .container { max-width: 680px; margin: 0 auto; padding: 32px 20px 64px; }
     .card { background: white; border-radius: 16px; padding: 28px 24px; margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
     h2 { font-size: 18px; font-weight: 600; color: #1C1C1E; margin: 24px 0 10px; }
@@ -32,6 +33,23 @@
 <body>
 
   <div class="header">
+    <div class="logo">
+      <svg viewBox="0 0 1024 1024" width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1024" height="1024" fill="#FFFFFF" rx="200"/>
+        <g transform="translate(200, 312)">
+          <rect x="0"   y="200" width="80" height="200" fill="#0060D0" rx="12"/>
+          <rect x="110" y="100" width="80" height="300" fill="#0A84FF" rx="12"/>
+          <rect x="220" y="0"   width="80" height="400" fill="#0060D0" rx="12"/>
+          <path d="M 360 400 L 520 100 L 630 100 L 410 400 Z" fill="#0A84FF"/>
+          <g transform="translate(430, 250)">
+            <rect x="0" y="35" width="100" height="75" fill="#30D158" rx="16"/>
+            <path d="M 25 35 V 25 C 25 11.19 36.19 0 50 0 C 63.81 0 75 11.19 75 25 V 35" fill="none" stroke="#30D158" stroke-width="16" stroke-linecap="round"/>
+            <circle cx="50" cy="65" r="10" fill="#FFFFFF"/>
+            <path d="M 45 70 L 41 95 L 59 95 L 55 70 Z" fill="#FFFFFF"/>
+          </g>
+        </g>
+      </svg>
+    </div>
     <h1>Privacy Policy</h1>
     <p>FinanceKit</p>
   </div>
